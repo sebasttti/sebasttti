@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <title>Sebastián Joya | Software Engineer</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'media'
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-image:
+                radial-gradient(circle at top right, rgba(59, 130, 246, .08), transparent 30%),
+                radial-gradient(circle at bottom left, rgba(16, 185, 129, .08), transparent 35%);
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100">
+
+    <header
+        class="sticky top-0 backdrop-blur bg-white/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800 z-50">
+
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="font-bold text-xl">
+                Sebastián Joya
+            </h1>
+
+            <nav class="hidden md:flex gap-8 text-sm">
+                <a href="#about" class="hover:text-blue-600">Sobre mí</a>
+                <a href="#experience" class="hover:text-blue-600">Experiencia</a>
+                <a href="#languages" class="hover:text-blue-600">Idiomas</a>
+                <a href="#skills" class="hover:text-blue-600">Habilidades</a>
+                <a href="#contact" class="hover:text-blue-600">Contacto</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="max-w-6xl mx-auto px-6 py-24">
+
+        <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+            <!-- Información -->
+
+            <div>
+
+                <p class="uppercase tracking-widest text-blue-600 font-semibold mb-3">
+                    Arquitecto de Software
+                </p>
+
+                <h2 class="text-5xl font-extrabold leading-tight mb-6">
+
+                    Construyendo sistemas
+                    <span class="text-blue-600">
+                        confiables,
+                    </span>
+
+                    escalables y mantenibles.
+
+                </h2>
+
+                <p class="text-lg text-slate-600 dark:text-slate-400 leading-8">
+
+                    Soy ingeniero de software con experiencia en integración de sistemas,
+                    desarrollo de software y arquitectura de aplicaciones.
+
+                    Actualmente trabajo desarrollando integraciones empresariales, mientras continúo fortaleciendo
+                    mis conocimientos en Microsoft Azure y arquitectura cloud.
+
+                </p>
+
+            </div>
+
+            <!-- Fotografía -->
+
+            <div class="flex justify-center">
+
+                <div class="relative">
+
+                    <!-- Halo -->
+
+                    <div
+                        class="absolute -inset-4 rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-indigo-500 blur-3xl opacity-20">
+                    </div>
+
+                    <!-- Imagen -->
+
+                    <img src="https://github.com/sebasttti.png" alt="Sebastián Joya"
+                        class="relative w-80 h-80 object-cover rounded-full border-8 border-white dark:border-slate-900 shadow-2xl opacity-75">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20">
+
+        <h2 class="text-3xl font-bold mb-10">
+            Sobre mí
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+
+                <h3 class="font-bold mb-4">
+                    Integración empresarial
+                </h3>
+
+                <p class="text-slate-600 dark:text-slate-400">
+
+                    Desarrollo e integración de sistemas empresariales,
+                    conectando aplicaciones críticas mediante servicios,
+                    procesos automáticos y APIs.
+
+                </p>
+
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+
+                <h3 class="font-bold mb-4">
+                    Desarrollo Fullstack
+                </h3>
+
+                <p class="text-slate-600 dark:text-slate-400">
+
+                    Experiencia desarrollando aplicaciones desde la planificación, la ejecución de las capas de usuario,
+                    lógica y de data, el testing y el despliegue en entornos productivos.
+
+                </p>
+
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+
+                <h3 class="font-bold mb-4">
+                    Arquitectura Cloud
+                </h3>
+
+                <p class="text-slate-600 dark:text-slate-400">
+
+                    Mi objetivo profesional es especializarme en arquitectura
+                    de soluciones sobre Microsoft Azure.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="experience" class="bg-slate-100 dark:bg-slate-900/40 py-20">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <h2 class="text-3xl font-bold mb-12">
+                Experiencia Profesional
+            </h2>
+
+            <div class="space-y-12">
+
+                <!-- Universidad El Bosque -->
+
+                <div class="relative border-l-4 border-blue-600 pl-8">
+
+                    <div class="absolute -left-[11px] top-2 w-5 h-5 rounded-full bg-blue-600"></div>
+
+                    <h3 class="text-2xl font-bold">
+                        Coordinador de Sistemas de Información
+                    </h3>
+
+                    <p class="text-blue-600 font-semibold mt-1">
+                        Universidad El Bosque · Bogotá, Colombia
+                    </p>
+
+                    <p class="text-sm text-slate-500 mb-5">
+                        Enero de 2023 - Actualidad
+                    </p>
+
+                    <ul class="list-disc ml-5 space-y-3 text-slate-600 dark:text-slate-400 leading-7">
+
+                        <li>
+                            Lidero el diseño e implementación de la arquitectura de integración del sistema académico
+                            institucional, facilitando la interoperabilidad entre plataformas internas y externas.
+                        </li>
+
+                        <li>
+                            Defino e implemento estrategias de integración basadas en APIs REST y servicios, priorizando
+                            la disponibilidad, escalabilidad y confiabilidad de las soluciones.
+                        </li>
+
+                        <li>
+                            Coordino el desarrollo y mantenimiento de procesos de integración entre sistemas académicos,
+                            administrativos y financieros.
+                        </li>
+
+                        <li>
+                            Participo en la definición de estrategias tecnológicas relacionadas con integración, gestión
+                            de datos y evolución de la arquitectura institucional.
+                        </li>
+
+                        <li>
+                            Impulso iniciativas de mejora continua para optimizar procesos críticos y fortalecer la
+                            calidad de las soluciones implementadas.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Senior Software Engineer -->
+
+                <div class="relative border-l-4 border-blue-600 pl-8">
+
+                    <div class="absolute -left-[11px] top-2 w-5 h-5 rounded-full bg-blue-600"></div>
+
+                    <h3 class="text-2xl font-bold">
+                        Ingeniero de Software Senior
+                    </h3>
+
+                    <p class="text-blue-600 font-semibold mt-1">
+                        Universidad El Bosque · Bogotá, Colombia
+                    </p>
+
+                    <p class="text-sm text-slate-500 mb-5">
+                        Febrero de 2020 – Diciembre de 2022
+                    </p>
+
+                    <ul class="list-disc ml-5 space-y-3 text-slate-600 dark:text-slate-400 leading-7">
+
+                        <li>
+                            Diseñé e implementé soluciones de software orientadas a la integración de sistemas
+                            académicos y administrativos.
+                        </li>
+
+                        <li>
+                            Desarrollé y mantuve APIs REST y servicios backend para mejorar la interoperabilidad entre
+                            aplicaciones institucionales.
+                        </li>
+
+                        <li>
+                            Automatizé procesos administrativos, reduciendo tiempos de operación y minimizando errores
+                            en actividades críticas.
+                        </li>
+
+                        <li>
+                            Trabajé de manera conjunta con equipos funcionales y técnicos para garantizar que las
+                            soluciones desarrolladas respondieran a las necesidades del negocio.
+                        </li>
+
+                        <li>
+                            Participé en la evolución de la arquitectura de los sistemas institucionales hacia
+                            soluciones más modulares y mantenibles.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- GRI -->
+
+                <div class="relative border-l-4 border-blue-600 pl-8">
+
+                    <div class="absolute -left-[11px] top-2 w-5 h-5 rounded-full bg-blue-600"></div>
+
+                    <h3 class="text-2xl font-bold">
+                        Desarrollador Web Full Stack
+                    </h3>
+
+                    <p class="text-blue-600 font-semibold mt-1">
+                        GRI Gestión Integral del Riesgo · Bucaramanga, Colombia
+                    </p>
+
+                    <p class="text-sm text-slate-500 mb-5">
+                        Septiembre de 2015 – Enero de 2020
+                    </p>
+
+                    <ul class="list-disc ml-5 space-y-3 text-slate-600 dark:text-slate-400 leading-7">
+
+                        <li>
+                            Diseñé y desarrollé una plataforma web para la gestión de incidentes laborales y el análisis
+                            de causas raíz.
+                        </li>
+
+                        <li>
+                            Implementé aplicaciones Full Stack utilizando tecnologías web modernas para apoyar procesos
+                            de Seguridad y Salud en el Trabajo.
+                        </li>
+
+                        <li>
+                            Desarrollé módulos de captura, análisis y generación de reportes para apoyar la toma de
+                            decisiones en empresas del sector petrolero.
+                        </li>
+
+                        <li>
+                            Optimicé el rendimiento y la experiencia de usuario de la plataforma, contribuyendo a una
+                            mayor eficiencia en los procesos de capacitación y gestión.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="languages" class="max-w-6xl mx-auto px-6 py-20">
+
+        <h2 class="text-3xl font-bold mb-10">
+            Idiomas
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-8">
+
+                <div class="text-4xl mb-4">🇪🇸</div>
+
+                <h3 class="text-xl font-semibold mb-2">
+                    Español
+                </h3>
+
+                <p class="text-slate-600 dark:text-slate-400">
+                    Nativo
+                </p>
+
+            </div>
+
+            <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-8">
+
+                <div class="text-4xl mb-4">🇺🇸</div>
+
+                <h3 class="text-xl font-semibold mb-2">
+                    Inglés
+                </h3>
+
+                <p class="text-slate-600 dark:text-slate-400">
+                    Nivel C1
+                </p>
+
+            </div>
+
+            <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-8">
+
+                <div class="text-4xl mb-4">🇫🇷</div>
+
+                <h3 class="text-xl font-semibold mb-2">
+                    Francés
+                </h3>
+
+                <p class="text-slate-600 dark:text-slate-400">
+                    Nivel A2 (en formación)
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="bg-slate-100 dark:bg-slate-900/40 py-20">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <h2 class="text-3xl font-bold mb-12">
+                Habilidades
+            </h2>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+
+                <!-- Habilidades Principales -->
+                <div>
+
+                    <h3 class="text-2xl font-semibold mb-6 text-blue-600">
+                        Habilidades Principales
+                    </h3>
+
+                    <div class="flex flex-wrap gap-3">
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Arquitectura de Software
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Integración de Sistemas
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            APIs REST
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Microservicios
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Computación en la Nube
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Microsoft Azure
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            AWS
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            DevOps y CI/CD
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Diseño de Sistemas Escalables
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Desarrollo Seguro de Software
+                        </span>
+
+                        <span
+                            class="px-4 py-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            Liderazgo Técnico
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <!-- Competencias Técnicas -->
+                <div>
+
+                    <h3 class="text-2xl font-semibold mb-6 text-blue-600">
+                        Competencias Técnicas
+                    </h3>
+
+                    <div class="space-y-6">
+
+                        <div>
+
+                            <h4 class="font-semibold mb-2">
+                                Lenguajes
+                            </h4>
+
+                            <p class="text-slate-600 dark:text-slate-400">
+                                PHP • Java • JavaScript • TypeScript • SQL • Python
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h4 class="font-semibold mb-2">
+                                Frameworks
+                            </h4>
+
+                            <p class="text-slate-600 dark:text-slate-400">
+                                Laravel • Spring Boot • React • Node.js • Angular
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h4 class="font-semibold mb-2">
+                                Cloud y DevOps
+                            </h4>
+
+                            <p class="text-slate-600 dark:text-slate-400">
+                                Microsoft Azure • AWS • Docker • Git • GitHub Actions • CI/CD
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h4 class="font-semibold mb-2">
+                                Bases de Datos
+                            </h4>
+
+                            <p class="text-slate-600 dark:text-slate-400">
+                                SQL Server • MySQL • PostgreSQL • Oracle Database • DynamoDB
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer id="contact" class="py-14 border-t border-slate-200 dark:border-slate-800">
+
+        <div class="max-w-6xl mx-auto px-6 text-center">
+
+            <h2 class="text-2xl font-bold">
+                ¡Hablemos!
+            </h2>
+
+            <p class="mt-4 text-slate-500 dark:text-slate-400 max-w-2xl mx-auto">
+                Si deseas conversar sobre arquitectura de software, integración de sistemas,
+                o proyectos que te parezcan desafiantes e interesantes, me gustaría mucho hablar contigo.
+            </p>
+
+            <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
+
+                <a href="mailto:juansjoya@gmail.com"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition">
+
+                    📨 Envíame un Correo
+
+                </a>
+
+                <a href="https://wa.me/573017865110" target="_blank"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">
+
+                    💬 Contáctame por Whatsapp
+
+                </a>
+
+            </div>
+
+            <div class="mt-10 text-sm text-slate-500 dark:text-slate-500">
+
+                <span id="this_year"></span> Sebastián Joya.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+        const yearSpan = document.getElementById("this_year");
+
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+    </script>
+
+</body>
+
+</html>
